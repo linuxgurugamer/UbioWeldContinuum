@@ -9,6 +9,7 @@ namespace UbioWeldingLtd
 
         void Start()
         {
+            Debug.Log("UbioWeldingLtd RegisterToolbar");
             ToolbarControl.RegisterMod(EditorToolbar.MODID, Constants.weldManufacturer);          
         }
     }
