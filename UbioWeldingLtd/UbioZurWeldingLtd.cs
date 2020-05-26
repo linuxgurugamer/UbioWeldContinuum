@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using KSP.UI.Screens;
 using ClickThroughFix;
+using ToolbarControl_NS;
 
 namespace UbioWeldingLtd
 {
@@ -106,7 +107,7 @@ namespace UbioWeldingLtd
 		{
 			try {
 				this.HandleAwake();
-				this._editorToolbar = new EditorToolbar(this);
+                this._editorToolbar = new EditorToolbar(this);
 			} catch (Exception e) {
 				Log.ex(this, e);
 			} finally {
